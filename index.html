@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lotus View - Social Media Agency in Ahmedabad. We create promotional reels, business stories, and digital content for brands.">
+    <meta name="keywords" content="social media, agency, Ahmedabad, reels, content creation">
+    <meta name="theme-color" content="#FFD300">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Google Fonts: Poppins, Montserrat, Bebas Neue -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Lotus View - Social Media Agency</title>
+</head>
+<body>
+    <!-- ============================================
+         HEADER & NAVIGATION
+         ============================================ -->
+    <header class="header" id="header">
+        <div class="navbar">
+            <div class="navbar-container">
+                <!-- Logo -->
+                <div class="navbar-logo">
+                    <a href="#home" class="logo-link">
+                        <span class="logo-icon">🪷</span>
+                        <span class="logo-text">Lotus View</span>
+                    </a>
+                </div>
+
+                <!-- Hamburger Menu Button (Mobile) -->
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <nav class="navbar-menu" id="navbar-menu" aria-label="Main navigation">
+                    <ul class="navbar-list">
+                        <li><a href="#home" class="navbar-link">Home</a></li>
+                        <li><a href="#about" class="navbar-link">About</a></li>
+                        <li><a href="#services" class="navbar-link">Services</a></li>
+                        <li><a href="#portfolio" class="navbar-link">Portfolio</a></li>
+                        <li><a href="#contact" class="navbar-link">Contact</a></li>
+                    </ul>
+                    <a href="#contact" class="navbar-cta">Let's Work Together</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================
+         MAIN CONTENT
+         ============================================ -->
+    <main id="main">
+        
+        <!-- ========== HERO / SLIDER ========== -->
+        <section class="hero" id="home" role="region" aria-label="Hero slider">
+            <div class="hero-slider">
+                <!-- Slide 1 -->
+                <div class="hero-slide" data-slide="0">
+                    <div class="hero-image">
+                        <img src="assets/img/hero1.jpg" alt="Social media content creation">
+                    </div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">Digital Presence <span class="highlight">Redefined</span></h1>
+                        <p class="hero-subtitle">We create compelling content that resonates with your audience</p>
+                        <a href="#contact" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="hero-slide" data-slide="1">
+                    <div class="hero-image">
+                        <img src="assets/img/hero3.jpg" alt="Video production and reels">
+                    </div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">Engaging <span class="highlight">Reels, Videos and Graphic Design</span></h1>
+                        <p class="hero-subtitle">From concept to production, we deliver videos that drive engagement</p>
+                        <a href="#services" class="btn btn-primary">Explore Services</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="hero-slide" data-slide="2">
+                    <div class="hero-image">
+                        <img src="assets/img/hero-1.jpg" alt="Ahmedabad local business content">
+                    </div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">Local Impact, <span class="highlight">Digital Growth</span></h1>
+                        <p class="hero-subtitle">Ahmedabad's fastest-growing social media agency</p>
+                        <a href="#portfolio" class="btn btn-primary">See Our Work</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Controls (optional but recommended) -->
+            <div class="slider-controls">
+                <button class="slider-btn slider-prev" id="slider-prev" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn slider-next" id="slider-next" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Pagination Dots -->
+            <div class="slider-dots" aria-label="Slide pagination">
+                <button class="dot active" data-dot="0" aria-label="Go to slide 1" aria-pressed="true"></button>
+                <button class="dot" data-dot="1" aria-label="Go to slide 2" aria-pressed="false"></button>
+                <button class="dot" data-dot="2" aria-label="Go to slide 3" aria-pressed="false"></button>
+            </div>
+        </section>
+
+        <!-- ========== ABOUT SECTION ========== -->
+        <section class="about" id="about" role="region" aria-label="About Lotus View">
+            <div class="container">
+                <div class="about-wrapper">
+                    <article class="about-content fade-in">
+                        <h2 class="section-title">About <span class="highlight">Lotus View</span></h2>
+                        <p class="about-text">
+                            Lotus View is an Ahmedabad-based social media agency that builds and manages 
+                            the digital presence of brands, businesses, public figures, and organizations. 
+                            Our core strength is our fast-growing Instagram page <strong>@khabar.amdavad</strong>, 
+                            where we create promotional reels, business stories, and on-ground content that 
+                            reaches a strong local audience.
+                        </p>
+                        <p class="about-text">
+                            With a keen eye for trends and a passion for storytelling, we turn your vision 
+                            into engaging digital content that converts.
+                        </p>
+                        <a href="#services" class="btn btn-secondary">Learn More</a>
+                    </article>
+
+                    <figure class="about-image fade-in">
+                        <img src="assets/img/about.jpg" alt="Lotus View team">
+                        <figcaption>Crafting digital stories in Ahmedabad</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SERVICES SECTION ========== -->
+        <section class="services" id="services" role="region" aria-label="Our services">
+            <div class="container">
+                <h2 class="section-title text-center">Our <span class="highlight">Services</span></h2>
+                
+                <div class="services-grid">
+                    <!-- Service Card 1: Social Media Management -->
+                    <article class="service-card fade-in" role="article">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="service-title">Social Media Management</h3>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle"></i> Content Calendar</li>
+                            <li><i class="fas fa-check-circle"></i> Strategy & Planning</li>
+                            <li><i class="fas fa-check-circle"></i> Graphic Design</li>
+                            <li><i class="fas fa-check-circle"></i> Page Handling</li>
+                            <li><i class="fas fa-check-circle"></i> Performance Tracking</li>
+                        </ul>
+                    </article>
+
+                    <!-- Service Card 2: Reel & Video Production -->
+                    <article class="service-card fade-in" role="article">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="service-title">Reel & Video Production</h3>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle"></i> Script Writing</li>
+                            <li><i class="fas fa-check-circle"></i> Shooting</li>
+                            <li><i class="fas fa-check-circle"></i> Editing</li>
+                            <li><i class="fas fa-check-circle"></i> Anchoring / Video Jockey</li>
+                            <li><i class="fas fa-check-circle"></i> Posting</li>
+                        </ul>
+                    </article>
+
+                    <!-- Service Card 3: Brand Strategy (Optional) -->
+                    <article class="service-card fade-in" role="article">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="service-title">Brand Strategy</h3>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle"></i> Market Analysis</li>
+                            <li><i class="fas fa-check-circle"></i> Brand Positioning</li>
+                            <li><i class="fas fa-check-circle"></i> Audience Research</li>
+                            <li><i class="fas fa-check-circle"></i> Growth Planning</li>
+                            <li><i class="fas fa-check-circle"></i> ROI Optimization</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PORTFOLIO SECTION ========== -->
+        <section class="portfolio" id="portfolio" role="region" aria-label="Portfolio gallery">
+            <div class="container">
+                <h2 class="section-title text-center">Our <span class="highlight">Portfolio</span></h2>
+                
+                <div class="portfolio-grid">
+                    <!-- Portfolio Item 1 -->
+                    <figure class="portfolio-item fade-in">
+                        <img src="assets/img/p1.jpg" alt="Food business promotion reel">
+                        <figcaption class="portfolio-caption">
+                            <h3>Food Business Promo</h3>
+                            <p>Engaging reel for local eateries</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Portfolio Item 2 -->
+                    <figure class="portfolio-item fade-in">
+                        <img src="assets/img/p2.jpg" alt="Salon promotion content">
+                        <figcaption class="portfolio-caption">
+                            <h3>Salon & Spa</h3>
+                            <p>Beauty and wellness showcase</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Portfolio Item 3 -->
+                    <figure class="portfolio-item fade-in">
+                        <img src="assets/img/p3.jpg" alt="Café coverage">
+                        <figcaption class="portfolio-caption">
+                            <h3>Café & Restaurant</h3>
+                            <p>Ambiance and menu highlights</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Portfolio Item 4 -->
+                    <figure class="portfolio-item fade-in">
+                        <img src="assets/img/p4.jpg" alt="Real estate tour">
+                        <figcaption class="portfolio-caption">
+                            <h3>Real Estate Tours</h3>
+                            <p>Property showcases and walkthroughs</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Portfolio Item 5 -->
+                    <figure class="portfolio-item fade-in">
+                        <img src="assets/img/p5.jpg" alt="Event coverage">
+                        <figcaption class="portfolio-caption">
+                            <h3>Event Coverage</h3>
+                            <p>Live events and celebrations</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Portfolio Item 6 -->
+                    <figure class="portfolio-item fade-in">
+                        <img src="assets/img/p6.jpg" alt="Trending content">
+                        <figcaption class="portfolio-caption">
+                            <h3>Trending Reels</h3>
+                            <p>Viral content and entertainment</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== WHAT WE HAVE DONE ========== -->
+        <section class="achievements" id="achievements" role="region" aria-label="Projects completed">
+            <div class="container">
+                <h2 class="section-title text-center">What We <span class="highlight">Have Done</span></h2>
+                
+                <div class="achievements-grid">
+                    <div class="achievement-item fade-in">
+                        <div class="achievement-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Food Business Promo Reels</h3>
+                    </div>
+
+                    <div class="achievement-item fade-in">
+                        <div class="achievement-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3>Salon/Spa Promotions</h3>
+                    </div>
+
+                    <div class="achievement-item fade-in">
+                        <div class="achievement-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <h3>Café/Restaurant Coverage</h3>
+                    </div>
+
+                    <div class="achievement-item fade-in">
+                        <div class="achievement-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Real Estate Tours</h3>
+                    </div>
+
+                    <div class="achievement-item fade-in">
+                        <div class="achievement-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3>Event Coverage</h3>
+                    </div>
+
+                    <div class="achievement-item fade-in">
+                        <div class="achievement-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h3>Interviews & Talk-to-Camera Reels</h3>
+                    </div>
+
+                    <div class="achievement-item fade-in">
+                        <div class="achievement-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Trending Reels with VJ</h3>
+                    </div>
+
+                    <div class="achievement-item fade-in">
+                        <div class="achievement-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Brand Campaigns in Ahmedabad</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT SECTION ========== -->
+        <section class="contact" id="contact" role="region" aria-label="Contact us">
+            <div class="container">
+                <h2 class="section-title text-center">Let's <span class="highlight">Connect</span></h2>
+                
+                <div class="contact-wrapper">
+                    <!-- Contact Information -->
+                    <aside class="contact-info fade-in">
+                        <h3>Get in Touch</h3>
+
+                        <!-- Location -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Ahmedabad, Gujarat</p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>
+                                    <a href="mailto:lotusview@gmail.com">info.lotusview@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>PR / Phone: Akarsh</h4>
+                                <p>
+                                    <a href="tel:+919409382678">+91 94093 82678</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="contact-actions">
+                            <a href="https://wa.me/919409382678?text=Hi%20I'm%20interested%20in%20your%20services" 
+                               target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> WhatsApp Us
+                            </a>
+                            <a href="tel:+919409382678" class="btn btn-call">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+
+                        
+                    </aside>
+
+                    <!-- Contact Form -->
+                    <form class="contact-form fade-in" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="form-name">Full Name *</label>
+                            <input type="text" id="form-name" name="name" required aria-required="true" placeholder="Your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-email">Email Address *</label>
+                            <input type="email" id="form-email" name="email" required aria-required="true" placeholder="your@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-service">Service Interested In</label>
+                            <select id="form-service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="social-media">Social Media Management</option>
+                                <option value="video-production">Reel & Video Production</option>
+                                <option value="brand-strategy">Brand Strategy</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-message">Message *</label>
+                            <textarea id="form-message" name="message" rows="5" required aria-required="true" 
+                                      placeholder="Tell us about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        <p class="form-confirmation" id="form-confirmation" style="display: none;"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="year"></span> Lotus View. All rights reserved.</p>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

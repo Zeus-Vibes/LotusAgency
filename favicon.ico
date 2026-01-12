@@ -1,0 +1,10 @@
+This is a placeholder for favicon.ico. Replace with an actual favicon file (.ico format).
+
+To generate a favicon:
+1. Create or source a logo image (preferably 512x512 px)
+2. Use an online converter: favicon.io or icoconvert.com
+3. Download the favicon.ico file and replace this file
+4. The HTML already includes the reference in <head>
+
+Alternatively, use a simple emoji favicon in HTML:
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg>...</svg>">
